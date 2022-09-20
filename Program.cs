@@ -30,10 +30,13 @@ namespace Hud1
             attackPower = 10;
             monsterKillPoints = 100;
             locationFoundPoints = 50;
-            monsterStongPower = 10;
+            monsterStongPower = 50;
             monsterWeakPower = 10;
-            monsterMPower = 
-
+            monsterMPower = 25;
+            Console.WriteLine(" O");
+            Console.WriteLine("/|7");
+            Console.WriteLine(" /7");
+            Console.WriteLine();
             Console.WriteLine("Enter name");
             playerName = Console.ReadLine();
             Console.WriteLine(" Your name is " + playerName + ".");
